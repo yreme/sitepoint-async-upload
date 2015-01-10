@@ -1,18 +1,22 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
+source "http://gems.github.com" 
 
-ruby '2.1.2'
+
+#ruby '2.1.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.1'
+gem 'rails', '~> 4.1.1'
 
 gem 'thin'
 
-gem 'heroku_secrets', github: 'alexpeattie/heroku_secrets'
+gem 'heroku_secrets'
+#gem 'heroku_secrets', github: 'alexpeattie/heroku_secrets'
 
 gem 'dragonfly'
 gem 'dragonfly-s3_data_store'
 gem 'bootstrap-sass'
 gem 'remotipart', '~> 1.2'
-gem 'jquery-fileupload-rails', github: 'Springest/jquery-fileupload-rails'
+gem 'jquery-fileupload-rails'
+#gem 'jquery-fileupload-rails', github: 'Springest/jquery-fileupload-rails'
 
 gem 'compass-rails'
 gem 'compass'

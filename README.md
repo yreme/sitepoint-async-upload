@@ -26,5 +26,10 @@ Finally run:
 RAILS_ENV=production rake heroku:secrets
 ```
 
+直接运行 
+
+>rails s
+
+
 Change bucket name in config/initializers/dragonfly.rb with your own bucket name.
 Note: Add bucket without dots to aviod [this error](https://github.com/fog/fog/issues/2381#issuecomment-28088524).
